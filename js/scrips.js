@@ -12,7 +12,7 @@ function divide(num1, num2){
 }
 
 
-function calculatorFunction(event){
+function handleCalulations(event){
   event.preventDefault();
   const number1 = parseInt(document.querySelector("input#input1").value);
   const number2 = parseInt(document.querySelector("input#input2").value);
